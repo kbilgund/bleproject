@@ -38,19 +38,46 @@ from enum import IntEnum, unique
 		`-| |--------|    |----|V|-------'           '''
 
 
-
-
-
 @unique
 class gpio_config(IntEnum):
 	
-	gpio_3V3 	 = 1 
-	gpio_5V_1  	 = 2
+	pin_3V3_1 	 = 1 
+	pin_5V_1  	 = 2
 	gpio_2  	 = 3 
-	gpio_5V_2   	 = 4
+	pin_5V_2   	 = 4
 	gpio_3  	 = 5 
-	gpio_gnd  	 = 6
+	gnd_1	  	 = 6
 	stepper_1_red    = 7
+	gpio_14 	 = 8
+	gnd_2		 = 9
+	gpio_15		 = 10
 	stepper_1_green  = 11
+	gpio_18		 = 12
 	stepper_1_blue   = 13
+	gnd_3 		 = 14
 	stepper_1_black  = 15
+	gpio_23 	 = 16
+	pin_3V3_2 	 = 17
+	gpio_24 	 = 18
+	gpio_10		 = 19
+	gnd_4 		 = 20
+	gpio_9 		 = 21
+	gpio_25		 = 22
+	gpio_11 	 = 23
+	gpio_8 		 = 24
+	gnd_5 		 = 25
+	gpio_7 		 = 26
+	gpio_0 	 	 = 27
+	gpio_1		 = 28
+	gpio_5 		 = 29
+	gnd_6 		 = 30
+	gpio_6 		 = 31
+	gpio_12 	 = 32
+	gpio_13 	 = 33
+	gnd_7 		 = 34
+	gpio_19		 = 35
+	gpio_16		 = 36
+	gpio_26		 = 37
+	gpio_20 	 = 38
+	gnd_8		 = 39
+	gpio_21 	 = 40	
